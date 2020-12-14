@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#begin {
+    background: white;
+    color: black;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 2;
+}
+
+.map-container { 
+    width: 50%;
+}
+
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+#defaultCanvas0 {
+    position: absolute;
+    left: 440px;
+    top:200px;
+    border-radius: 50%;
+}
